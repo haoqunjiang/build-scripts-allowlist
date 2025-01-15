@@ -28,15 +28,15 @@ Build scripts are scripts that run during the installation of a package. They ar
 
 In practice, the scripts can do anything, including downloading and executing arbitrary code from the internet. This makes them a security risk.
 
-Blocking build scripts is a security measure to prevent malicious packages from executing arbitrary code on your machine. It is especially important in CI/CD environments, where packages are installed automatically.
-
 PNPM 10 and Bun block build scripts by default, and both have mechanisms to allowlist packages that need to run build scripts.
 
 ### Why do we need an allowlist?
 
-Blocking build scripts by default is a good security measure, but it can break packages that rely on build scripts to work. For example, packages that download binary files or compile native code will not work if their build scripts are blocked. An allowlist is a list of packages that are known to need build scripts to work. By allowlisting these packages, we can block build scripts for all other packages while still allowing the necessary build scripts to run.
+Blocking build scripts by default is a good security measure, but it can break packages that rely on build scripts for their essential functionality. For example, packages that download binary files or compile native code will not work if their build scripts are blocked.
 
-Of course this is not a perfect solution. The allowlist can be incomplete, and malicious packages can be added to the allowlist. But it is better than nothing.
+By allowlisting the packages that with build scripts essential for their functionality and are known to do no harm, we can block build scripts for all other packages while still allowing these packages to work.
+
+Of course this is not a perfect solution. The allowlist can be incomplete, and currently benign packages can be compromised in the future. Also, the allowlist can be used to smuggle malicious code into the project by adding a malicious package to the allowlist. So it is important to keep the allowlist up-to-date and to only add packages that are widely used and have a good reputation.
 
 ### Does the list include all packages that run build scripts?
 
