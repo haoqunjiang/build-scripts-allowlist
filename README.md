@@ -19,6 +19,8 @@ In your project using PNPM 10, add the following field to your `package.json`:
 }
 ```
 
+This package uses a date-based version number to indicate the last time the list was updated so you can easily see if the list is outdated.
+
 > [!IMPORTANT]
 > If you are reading the documentation on NPM, please go to the [GitHub repository](https://github.com/haoqunjiang/build-scripts-allowlist) to see the up-to-date version number & hash used in the `configDependencies` field.
 
