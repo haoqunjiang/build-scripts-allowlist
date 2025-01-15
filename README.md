@@ -1,6 +1,6 @@
 # build-scripts-allowlist
 
-An maintained, up-to-date list of common NPM packages that need to run lifecycle scripts during installation.
+An up-to-date list of common NPM packages that need to run lifecycle scripts during installation.
 
 ## FAQ
 
