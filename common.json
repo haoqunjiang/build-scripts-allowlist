@@ -17,7 +17,6 @@
   "@bufbuild/buf",
   "@cdktf/node-pty-prebuilt-multiarch",
   "@ckeditor/ckeditor5-vue",
-  "@cloudflare/wrangler",
   "@contrast/fn-inspect",
   "@cubejs-backend/cubestore",
   "@cubejs-backend/native",
