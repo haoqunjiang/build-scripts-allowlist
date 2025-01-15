@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/haoqunjiang/lifecycle-scripts-allowlist/issues"
   },
-  "homepage": "https://github.com/haoqunjiang/lifecycle-scripts-allowlist#readme"
+  "homepage": "https://github.com/haoqunjiang/lifecycle-scripts-allowlist#readme",
+  "packageManager": "pnpm@10.0.0"
 }
