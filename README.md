@@ -13,7 +13,7 @@ In your project using PNPM 10, add the following field to your `package.json`:
 ```json
 "pnpm": {
   "configDependencies": {
-    "build-scripts-allowlist": "0.0.1+sha512-base64encodingofthetgzshasum=="
+    "build-scripts-allowlist": "0.0.1+sha512-2/CzKYhFTbN3LsVhLhrEL6ZQKM/Tq12/bdFPJ1Rg4ktZS+AQna5WiSZquehSTW/6EdlDtS/IXjLDzRSAuq1zcg=="
   },
   "onlyBuiltDependenciesFile": "node_modules/.pnpm-config/build-scripts-allowlist/common.json"
 }
