@@ -19,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+The initial list in this project is trimmed down from Bun's [`default-trusted-dependencies.txt`](https://github.com/oven-sh/bun/blob/c0e1da7280a3cd58796dd09696767e119de58ec1/src/install/default-trusted-dependencies.txt), which is [licensed under the MIT License](https://bun.sh/docs/project/licensing).

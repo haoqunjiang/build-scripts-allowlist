@@ -1,0 +1,31 @@
+{
+  "name": "build-scripts-allowlist",
+  "version": "0.0.0",
+  "description": "A maintained, up-to-date list of common NPM packages that need to run build scripts during installation.",
+  "type": "module",
+  "main": "common.json",
+  "files": [
+    "common.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "./postversion.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoqunjiang/build-scripts-allowlist.git"
+  },
+  "keywords": [
+    "build scripts",
+    "postinstall",
+    "allowlist",
+    "onlyBuiltDependencies",
+    "onlyBuiltDependenciesFile"
+  ],
+  "author": "Haoqun Jiang <npm@haoqun.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haoqunjiang/lifecycle-scripts-allowlist/issues"
+  },
+  "homepage": "https://github.com/haoqunjiang/lifecycle-scripts-allowlist#readme"
+}
