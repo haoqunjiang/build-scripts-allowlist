@@ -1,6 +1,5 @@
 [
   "@airbnb/node-memwatch",
-  "@apollo/protobufjs",
   "@apollo/rover",
   "@appsignal/nodejs",
   "@arkweid/lefthook",
