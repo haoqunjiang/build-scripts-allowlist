@@ -1,6 +1,6 @@
 {
   "name": "build-scripts-allowlist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A maintained, up-to-date list of common NPM packages that need to run build scripts during installation.",
   "type": "module",
   "main": "common.json",
