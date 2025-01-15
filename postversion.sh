@@ -42,5 +42,6 @@ else
     exit 1
 fi
 
-git add README.md
-git commit -m "docs: update pnpm 10 installation instructions"
+git stash
+echo "README.md updates stashed. Please publish the package first, then run"
+echo "git stash pop"

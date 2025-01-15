@@ -19,6 +19,9 @@ In your project using PNPM 10, add the following field to your `package.json`:
 }
 ```
 
+> [!IMPORTANT]
+> If you are reading the documentation on NPM, please go to the [GitHub repository](https://github.com/haoqunjiang/build-scripts-allowlist) to see the up-to-date version number & hash used in the `configDependencies` field.
+
 ### What are build scripts? Are they dangerous? Why do we need to block them?
 
 Build scripts are scripts that run during the installation of a package. They are defined in the `package.json` file of the package. The most common build scripts are `preinstall`, `install`, and `postinstall`[^1], which will be executed in that order. These scripts are used to set up the package, compile native code, download binary files, etc.
