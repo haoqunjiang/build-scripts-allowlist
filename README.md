@@ -42,7 +42,10 @@ Of course this is not a perfect solution. The allowlist can be incomplete, and c
 
 ### Does the list include all packages that run build scripts?
 
-No. Only packages that are commonly used in production environments are included. For now the criteria is that the package has at least 10k weekly downloads. Also, only those postinstall scripts that are necessary for the package to work are included. Postinstall scripts that are used for optional features or for development purposes are not included.
+No.
+
+- Only packages that are commonly used in production environments are included. There's currently no strict criteria for inclusion. The initial list is a trimmed down version of the list of packages that are included in [Bun's `default-trusted-dependencies.txt`](https://github.com/oven-sh/bun/blob/c0e1da7280a3cd58796dd09696767e119de58ec1/src/install/default-trusted-dependencies.txt).
+- Only those with build scripts that are essential for the package to work are included. Build scripts that are used for optional features or for development purposes are not considered essential.
 
 ### How is the list maintained?
 
