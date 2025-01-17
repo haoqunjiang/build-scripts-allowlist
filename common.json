@@ -76,7 +76,6 @@
   "@sap/hana-client",
   "@sap/hana-performance-tools",
   "@sap/hana-theme-vscode",
-  "@scarf/scarf",
   "@sematext/gc-stats",
   "@sentry/capacitor",
   "@sentry/profiling-node",
